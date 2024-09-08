@@ -1,0 +1,44 @@
+image: Map.pgm
+mode: trinary
+resolution: 0.02
+origin: [-3.97, -1.11, 0]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.25
+
+map_path: ./Map
+map_ext: .pgm
+
+wpt_path: './Map.csv'
+wpt_delim: ';'
+wpt_rowskip: 3
+wpt_xind: 1
+wpt_yind: 2
+wpt_thind: 3
+wpt_vind: 5
+
+sx: 0.5765744
+sy: 0.1755319
+stheta: 6.1
+
+# varied params bound
+# physical params
+mass_min: 3.0
+mass_max: 4.0
+lf_min: 0.147
+lf_max: 0.170
+# controller params
+tlad_min: 0.2
+tlad_max: 5.
+vgain_min: 0.5
+vgain_max: 1.5
+
+# computation budget (can think of it as gen_num times pop_size)
+popsize: 100
+budget: 1000
+
+# optimization method
+optim_method: 'CMA'
+
+# seed
+seed: 12345

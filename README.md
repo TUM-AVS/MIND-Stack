@@ -66,4 +66,3 @@ tensorboard --log-dir=./
 
 ### ROS2 Code. 
 The `ROS2` Folder contains the entire code base, reimplementing the algorithm for the ROS2 framework for use on the F1Tenth vehicle and NVIDIA Jetson.
-We utilize the standard Particle Filter found [here](https://github.com/f1tenth/particle_filter).

@@ -1,7 +1,5 @@
 # MIND-Stack: Modular, Interpretable, End-to-End Differentiability for Autonomous Robots
 
-This README file accompanies the paper "MIND-Stack: Modular, Interpretable, End-to-End Differentiability for Autonomous Robots". It provides instructions on how to install and run the code, along with explanations of the different Python files and other resources included in the repository.
-
 ## Installation
 
 The code runs on Ubuntu 20 and ROS2 Foxy due to the NVIDIA Jetson's software. The stack is tested on a desktop with an AMD CPU and NVIDIA 4090 GPU, as well as a laptop with an Intel CPU and NVIDIA 3070 GPU.
